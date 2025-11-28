@@ -9,50 +9,40 @@
 ---
 
 ### Task 1: Filter tasks
-**Start**: 15:54:00 → **End**: 10:30:45 = **40 seconds**
+**Start**: 15:54:00 → **End**: 15:54:45 = **40 seconds**
 **Success**: 1 (completed)
 **Errors**: 0
 **Confidence**: 5/5
 **Observations**:
-- Hesitated finding filter box ("Where's the search?")
-- Clicked checkbox, immediate visual feedback good
-- Said "Oh nice, it just works!" (positive)
+- Initially clicked on wrong box but quickly realised mistake
 
 ---
 
 ### Task 2: Edit task
-**Start**: 10:31:00 → **End**: 10:31:25 = **25 seconds**
+**Start**: 15:55:00 → **End**: 15:55:25 = **25 seconds**
 **Success**: 1
-**Errors**: 1 (tried to submit blank, saw error)
+**Errors**: 0
 **Confidence**: 4/5
 **Observations**:
-- Typed title, pressed Enter (didn't click button - good!)
-- Blank submit → error message showed (red, "Title required")
-- Corrected, submitted successfully
-- Status message: "Task added" - SR announced (tested with NVDA)
+- Edited task immediately
 
 ### Task 3: Add new tasks
-**Start**: 10:30:00 → **End**: 10:30:45 = **20 seconds**
+**Start**: 15:56:00 → **End**: 15:56:20 = **20 seconds**
 **Success**: 1 (completed)
 **Errors**: 0
 **Confidence**: 4/5
 **Observations**:
-- Hesitated finding filter box ("Where's the search?")
-- Clicked checkbox, immediate visual feedback good
-- Said "Oh nice, it just works!" (positive)
+- Added new task with ease
 
 ---
 
 ### Task 4: Delete task
-**Start**: 10:31:00 → **End**: 10:31:25 = **10 seconds**
-**Success**: 1
-**Errors**: 1 (tried to submit blank, saw error)
+**Start**: 15:56:30 → **End**: 15:56:40 = **10 seconds**
+**Success**: 1 (completed)
+**Errors**: 1 
 **Confidence**: 5/5
 **Observations**:
-- Typed title, pressed Enter (didn't click button - good!)
-- Blank submit → error message showed (red, "Title required")
-- Corrected, submitted successfully
-- Status message: "Task added" - SR announced (tested with NVDA)
+- Remarked it was very eay to use
 
 
 
@@ -61,6 +51,7 @@
 **Most confusing**: "Overwhelming when there are a lot of tasks"
 **Most helpful**: "Being able to filter tasks."
 **Accessibility**: Used keyboard only (requested). All features reachable. Focus visible.
+
 
 ---
 
