@@ -1,18 +1,19 @@
 # Evaluation Tasks — Week 9
 
-## Task T1: Filter Tasks
+## Task T1: Filter tasks
 
 **Scenario**:
-"You've been asked to find all tasks containing the word 'report'. Use the filter box to show only matching tasks, then count how many tasks remain."
+"You've been asked to find all tasks containing '2850'. Use the filter feature to find these tasks and then say how many tasks there are."
 
 **Setup**:
-- Pre-populate task list with 10 tasks, 3 containing "report" in title
-- Example: "Submit expense report", "Draft annual report", "Review quarterly report", plus 7 others
+- Pre-populate task list with 10 tasks, 3 containing "2850" in title
+- Example: "Finish 2850 backlog", "Complete 2850 job stories", "2850 pilot study", plus 7 others
 
 **Success criteria**:
-- Participant uses filter box (types "report")
+- Participant uses filter box (types "2850")
 - Participant reports correct count (3 tasks)
 - Completed within 2 minutes
+- Target time 30 seconds
 - No validation errors
 
 **Metrics**:
@@ -31,18 +32,21 @@
 ## Task T2: Edit Task Title
 
 **Scenario**:
-"The task 'Submit invoices' has a typo. Change it to 'Submit invoices by Friday' and save the change."
+"The task 'Complete 2860 quiz by Wednesday' has had its due date change. Change it to 'Complete 2860 quiz by Friday' and save the change."
 
 **Setup**:
-- Task ID 5: "Submit invoices" (visible in list)
+- Task ID 5: "Complete 2860 quiz by Friday" (visible in list)
+- Add other tasks to see how participant navigates task manager.
 - Participant must click Edit, change text, save
 
 **Success criteria**:
 - Participant activates edit mode
 - Participant updates title correctly
+- Participant edits correct task
 - Change persists after save
 - Completed within 90 seconds
 - No validation errors
+- Target time 30 seconds
 
 **Metrics**:
 - Time from click Edit to save confirmation (ms)
@@ -61,10 +65,10 @@
 ## Task T3: Add New Task
 
 **Scenario**:
-"You need to remember to 'Call supplier about delivery'. Add this as a new task."
+"You need to remember to 'Submit 2870 worksheet'. Add this as a new task."
 
 **Setup**:
-- Empty or partially filled task list
+- Partially filled task list with 3 tasks
 - Form visible at top of page
 
 **Success criteria**:
@@ -72,6 +76,7 @@
 - Submits form
 - New task appears in list
 - Completed within 60 seconds
+- Target time 30 seconds
 
 **Metrics**:
 - Time from focus in input to confirmation (ms)
@@ -86,19 +91,20 @@
 
 ---
 
-## Task T4: Delete Task
+## Task T4: Filter and Delete Tasks
 
 **Scenario**:
-"The task 'Test entry' is no longer needed. Delete it from the list."
+"You have caught up on all of your 2850 work, use the filter to search for all tasks relating to 2850 and delete them"
 
 **Setup**:
-- Task ID 8: "Test entry" (visible in list)
+- Create at least 8 tasks, 3 of which relate to 2850 and should be deleted.
 
 **Success criteria**:
 - Participant clicks Delete button
 - Confirms deletion (HTMX path) or submits form (no-JS)
 - Task removed from list
-- Completed within 45 seconds
+- Completed within 150 seconds
+- Target time 45 seconds
 
 **Metrics**:
 - Time from click Delete to confirmation (ms)
@@ -121,7 +127,7 @@
 2. T3 (Add) — Low cognitive load, builds confidence
 3. T1 (Filter) — Medium complexity, tests search
 4. T2 (Edit) — Tests inline interaction, validation
-5. T4 (Delete) — Destructive action, tests confirmation
+5. T4 (Filter and delete) — High cognitive load, combines previous task with new task, Destructive action, tests confirmation
 6. **Debrief** (qualitative): Open-ended questions
 
 **Counterbalance** if testing multiple participants: alternate T1/T2 order to avoid learning effects.
@@ -149,6 +155,6 @@
 - T1: 120s
 - T2: 90s
 - T3: 60s
-- T4: 45s
+- T4: 150s
 
 If participant exceeds time, prompt: "Would you like to continue, or shall we move to the next task?"
