@@ -35,7 +35,7 @@
 "The task 'Complete 2860 quiz by Wednesday' has had its due date change. Change it to 'Complete 2860 quiz by Friday' and save the change."
 
 **Setup**:
-- Task ID 5: "Complete 2860 quiz by Friday" (visible in list)
+- "Complete 2860 quiz by Friday" (visible in list)
 - Add other tasks to see how participant navigates task manager.
 - Participant must click Edit, change text, save
 

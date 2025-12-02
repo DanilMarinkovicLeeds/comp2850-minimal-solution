@@ -61,12 +61,12 @@
 
 **Verbal consent**: "Are you happy to proceed?"
 
-Record in `wk09/lab-wk9/research/consent-log.md`:
+Record in `wk09/lab-wk9/research/pilot-notes.md`:
 
 **Opt-out path**: If participant requests deletion:
 1. Open `data/metrics.csv`
 2. Delete all rows where `session_id=X7kL9p`
-3. Note in `consent-log.md`: "Data deleted on request [date]"
+3. Note in `pilot-notes.md`: "Data deleted on request [date]"
 
 ---
 
@@ -78,7 +78,8 @@ Record in `wk09/lab-wk9/research/consent-log.md`:
 - Facilitator laptop for notes (don't share screen)
 
 **Pre-pilot**:
-1. Generate random session ID suffix: `openssl rand -hex 3` → e.g., `7a9f2c`
-2. Set cookie in participant browser (DevTools Console) using format **P{N}_{random}**:
+1. Prepare task manager by adding example tasks
+2. Generate random session ID suffix: `openssl rand -hex 3` → e.g., `7a9f2c`
+3. Set cookie in participant browser (DevTools Console) using format **P{N}_{random}**:
    ```javascript
    document.cookie = "sid=P1_7a9f; path=/";  // P1 = Participant 1, use P2, P3... for subsequent pilots
