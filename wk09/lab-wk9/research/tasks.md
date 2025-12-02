@@ -59,6 +59,8 @@
 - Focus remains on/near edited task?
 - Works with keyboard only?
 - Works with JS disabled?
+**Links to job story**
+Links to story 6 as users have requested an easy way to edit tasks, therefore this task should be completed relatively quickly and changes should be clear and obvious to the user.
 
 ---
 
