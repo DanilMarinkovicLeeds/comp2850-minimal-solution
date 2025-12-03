@@ -26,7 +26,8 @@
 - Result count announced by screen reader?
 - Keyboard-only completion possible?
 - Works with JS disabled?
-
+**Links to job story**
+This links to job story two, users can add a priority level to the job title and then filtering can allow them to search for this priority level only. The story mentions having a lot of tasks and ensuring filtering works makes managing a large amount of tasks much easier.
 ---
 
 ## Task T2: Edit Task Title
@@ -90,7 +91,8 @@ Links to story 6 as users have requested an easy way to edit tasks, therefore th
 - Status message "Added [title]" announced?
 - Form remains usable after error (if triggered)?
 - Works with JS disabled (PRG)?
-
+**Links to job story**
+This links to all job stories as all users regardless of their background or workload would need to add tasks. This feature is fundamental to our task manager and must work well for all users no matter how they are accessing the task manager. 
 ---
 
 ## Task T4: Filter and Delete Tasks
@@ -119,7 +121,8 @@ Links to story 6 as users have requested an easy way to edit tasks, therefore th
 - Status message "Deleted [title]" announced (HTMX)?
 - Works with keyboard only?
 - Works with JS disabled (no confirmation, but functions)?
-
+**Links to job story**
+This links to job story 2 as it tests how easily large amounts of tasks can be added and removed from the task manager. This would be particulary useful for individuals with a large workload, such as those in job story 2.
 ---
 
 ## Task Order

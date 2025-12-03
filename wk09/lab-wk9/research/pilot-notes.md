@@ -122,6 +122,7 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 **Confidence**: 2/5
 **Observations**:
 - Navigated to tasks easily, but found it annoying to tab all the way through to confirm delete once a task was selected
+- While tabbing through accidentally left the site, but navigated back
 - For the last task realised they could press enter to delete without needing to tab to it, complained that was not intuitive 
 ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 2025-12-02T12:02:15.597323483Z,P1_47Ke,r_d62efe5f,T1_filter,success,,16,200,on
@@ -142,81 +143,181 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 
 ## Participant P3
 **Mode**: No JS
-**Date**: [2025-12-02 12:50]
+**Date**: [2025-12-03 18:11]
 **Consent**: ✅ Verbal confirmed
-**Duration**: 8 minutes
+**Duration**: 11 minutes
 
 ---
 
 ### Task 1: Filter tasks
-**Start**: 11:50:00 → **End**: 11:50:20 = **1:20 minute**
+**Start**: 18:13:35→ **End**: 18:13:45 = **10 minute**
 **Success**: 1 (completed)
-**Errors**: 0
-**Confidence**: 3/5
-**Observations**:
-- Once I had entered my filter text I was stuck in the search box and could not move down the page with esc so I had to tab
-ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
-2025-12-02T11:38:47.300989146Z,P1_47Ke,r_5944d8bf,T0_list,success,,27,200,off
-2025-12-02T11:48:41.598736442Z,P1_47Ke,r_3a0b0dbc,T1_filter,success,,8,200,on
-2025-12-02T11:48:41.968247454Z,P1_47Ke,r_dcab5543,T1_filter,success,,5,200,on
-2025-12-02T11:48:42.753809650Z,P1_47Ke,r_411c88b1,T1_filter,success,,14,200,on
-2025-12-02T11:49:07.972079746Z,P1_47Ke,r_13da886c,T1_filter,success,,9,200,on
-2025-12-02T11:49:08.331817690Z,P1_47Ke,r_a65429b6,T1_filter,success,,8,200,on
-2025-12-02T11:49:08.909372368Z,P1_47Ke,r_070ae728,T1_filter,success,,9,200,on
-2025-12-02T11:49:08.946311123Z,P1_47Ke,r_e73672a2,T1_filter,success,,10,200,on
-2025-12-02T11:49:10.378893922Z,P1_47Ke,r_8f4391f1,T1_filter,success,,11,200,on
-2025-12-02T11:49:10.732490745Z,P1_47Ke,r_2e707c69,T1_filter,success,,12,200,on
-2025-12-02T11:49:11.049937996Z,P1_47Ke,r_aafb4f26,T1_filter,success,,8,200,on
-2025-12-02T11:49:11.324206386Z,P1_47Ke,r_6279ff67,T1_filter,success,,12,200,on  `       
----
-
-### Task 2: Edit task   
-**Start**: 11:54:12 → **End**: 11:54:54 = **42 seconds**
-**Success**: 1
 **Errors**: 0
 **Confidence**: 4/5
 **Observations**:
-- Had same issue with leaving box, but more experienced
+- Participant did not use filter function, when prompted said it probably would have been easier to use that as when there are a lot of tasks the text can get quite small and all the buttons look very similar.
 ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
-2025-12-02T11:53:59.498043232Z,P1_47Ke,r_39be859c,T1_filter,success,,14,200,on
-2025-12-02T11:54:01.291751246Z,P1_47Ke,r_095e237d,T1_filter,success,,8,200,on
-2025-12-02T11:54:01.960719161Z,P1_47Ke,r_f4e60e9f,T1_filter,success,,5,200,on
-2025-12-02T11:54:02.216841103Z,P1_47Ke,r_4c4fc913,T1_filter,success,,8,200,on
-2025-12-02T11:54:04.280074809Z,P1_47Ke,r_0fbf31b5,T1_filter,success,,8,200,on
-2025-12-02T11:54:10.854438296Z,P1_47Ke,r_613aaff6,T2_edit,success,,8,200,on
-2025-12-02T11:54:20.206267929Z,P1_47Ke,r_57ad7bb9,T2_edit,success,,7,200,on
+2025-12-03T18:13:34.322521800Z,P3_2096,r_c501ba1f,T0_list,success,,32,200,off`       
+---
+
+### Task 2: Edit task   
+**Start**: 18:16:40 → **End**: 18:18:00 = **1:20 minutes**
+**Success**: 0
+**Errors**: 1
+**Confidence**: 1/5
+**Observations**:
+- Whenever user attempted to edit task, the page would reload but nothing would change. User kept persisting but was confused and evetually gave up.
+ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
+2025-12-03T18:16:48.000580600Z,P3_2096,r_66662396,T0_list,success,,61,200,off
+2025-12-03T18:17:05.425291700Z,P3_2096,r_7b19135f,T2_edit,success,,2,200,off
+2025-12-03T18:17:05.470908500Z,P3_2096,r_1ccd9bd9,T0_list,success,,38,200,off
+2025-12-03T18:17:11.468136600Z,P3_2096,r_6795e73f,T2_edit,success,,5,200,off
+2025-12-03T18:17:11.529066100Z,P3_2096,r_11a9df7c,T0_list,success,,54,200,off
+2025-12-03T18:17:15.206190600Z,P3_2096,r_944a3969,T2_edit,success,,3,200,off
+2025-12-03T18:17:15.247872100Z,P3_2096,r_9c14a493,T0_list,success,,34,200,off
+2025-12-03T18:17:24.178754400Z,P3_2096,r_5f2537a5,T2_edit,success,,4,200,off
+2025-12-03T18:17:24.266709200Z,P3_2096,r_8f821030,T0_list,success,,74,200,off
+2025-12-03T18:17:28.316326200Z,P3_2096,r_e5c848f0,T2_edit,success,,2,200,off
+2025-12-03T18:17:28.380068Z,P3_2096,r_8e270532,T0_list,success,,53,200,off
+2025-12-03T18:17:33.305023800Z,P3_2096,r_9c5923c7,T2_edit,success,,4,200,off
+2025-12-03T18:17:33.355119900Z,P3_2096,r_7754c685,T0_list,success,,44,200,off
+2025-12-03T18:17:36.590032500Z,P3_2096,r_e35416ad,T2_edit,success,,3,200,off
+2025-12-03T18:17:36.645303100Z,P3_2096,r_25549cbb,T0_list,success,,49,200,off
+2025-12-03T18:17:47.797561900Z,P3_2096,r_cf21d684,T2_edit,success,,2,200,off
+2025-12-03T18:17:47.841765400Z,P3_2096,r_17753218,T0_list,success,,37,200,off
+2025-12-03T18:17:56.684695600Z,P3_2096,r_8cb991e0,T2_edit,success,,2,200,off
+2025-12-03T18:17:56.738605400Z,P3_2096,r_17084202,T0_list,success,,44,200,off
+2025-12-03T18:17:59.847933900Z,P3_2096,r_11fa8891,T2_edit,success,,2,200,off
+2025-12-03T18:17:59.887581100Z,P3_2096,r_058b422e,T0_list,success,,34,200,off
 
 ### Task 3: Add new tasks
-**Start**: 11:55:23 → **End**: 11:55:32 = **9 seconds**
+**Start**: 18:20:45 → **End**: 18:21:01 = **16 seconds**
 **Success**: 1 (completed)
 **Errors**: 0
 **Confidence**: 5/5
 **Observations**:
-- Inital tab not on add task
-2025-12-02T11:59:31.933800941Z,P1_47Ke,r_91739b83,T3_add,success,,20,200,on
+- Page reloaded after adding task, user then scrolled through list and found it.
+ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
+2025-12-03T18:20:45.536089Z,P3_2096,r_0733b919,T3_add,success,,0,200,off
+2025-12-03T18:20:45.576171800Z,P3_2096,r_1484916f,T0_list,success,,31,200,off
+2025-12-03T18:20:50.685339200Z,P3_2096,r_c3bda44c,T0_list,success,,20,200,off
+2025-12-03T18:20:52.719587600Z,P3_2096,r_d5aadd74,T0_list,success,,44,200,off
 ---
 
 ### Task 4: Filter and delete tasks
-**Start**: 11:55:55 → **End**: 11:56:28 = **33 seconds**
+**Start**: 18:22:34 → **End**: 18:22:56 = **23 seconds**
 **Success**: 1 (completed)
 **Errors**: 
-**Confidence**: 2/5
+**Confidence**: 3/5
 **Observations**:
-- Navigated to tasks easily, but found it annoying to tab all the way through to confirm delete once a task was selected
-- For the last task realised they could press enter to delete without needing to tab to it, complained that was not intuitive 
+- Used filter to find all tasks as required and was not phased by reload, but was confused that the filter did not persist after deleting a task. However adapted quickly and finished the task 
 ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
-2025-12-02T12:02:15.597323483Z,P1_47Ke,r_d62efe5f,T1_filter,success,,16,200,on
-2025-12-02T12:02:16.139543786Z,P1_47Ke,r_b24fecfc,T1_filter,success,,8,200,on
-2025-12-02T12:02:16.547630596Z,P1_47Ke,r_79c9698d,T1_filter,success,,7,200,on
-2025-12-02T12:02:16.861822316Z,P1_47Ke,r_467ab805,T1_filter,success,,9,200,on
-2025-12-02T12:02:29.308918571Z,P1_47Ke,r_e1d7b09d,T4_delete,success,,6,200,on
-2025-12-02T12:02:40.625744311Z,P1_47Ke,r_2837ac83,T4_delete,success,,7,200,on
-2025-12-02T12:02:43.489578434Z,P1_47Ke,r_21f30fd7,T4_delete,success,,6,200,on
+2025-12-03T18:22:31.088613200Z,P3_2096,r_7d521fe7,T0_list,success,,12,200,off
+2025-12-03T18:22:33.105445400Z,P3_2096,r_cababe39,T4_delete,success,,12,200,off
+2025-12-03T18:22:33.172902400Z,P3_2096,r_f42e19cf,T0_list,success,,56,200,off
+2025-12-03T18:22:37.718500100Z,P3_2096,r_06fc9cf3,T0_list,success,,16,200,off
+2025-12-03T18:22:39.977400Z,P3_2096,r_d393d0b8,T4_delete,success,,16,200,off
+2025-12-03T18:22:40.036820300Z,P3_2096,r_a0480a18,T0_list,success,,45,200,off
+2025-12-03T18:22:43.208550600Z,P3_2096,r_a40d3a3e,T0_list,success,,15,200,off
+2025-12-03T18:22:44.942649900Z,P3_2096,r_a97152d3,T4_delete,success,,12,200,off
+2025-12-03T18:22:45.000903600Z,P3_2096,r_518703c4,T0_list,success,,46,200,off
+2025-12-03T18:22:47.847988Z,P3_2096,r_ad334408,T0_list,success,,13,200,off
+2025-12-03T18:22:50.142704600Z,P3_2096,r_666e4821,T0_list,success,,22,200,off
 
 ### Debrief Notes
-**Most confusing**: "It was difficult to scroll away from filter after using it"
-**Most helpful**: "The page up and page down buttons made navigation a lot easier."
-**Accessibility**: Used keyboard only with javascript enabled. All features reachable. Focus visible.
+**Most confusing**: "Edit failing was very confusing, I was not given an error message."
+**Most helpful**: "I think the page reloading itself was very helpful when working without JS, it would have been annoying to have to reload it myself every time."
+**Accessibility**: Used keyboard and mouse with javascript disabled. All features but edit working as intended. Focus visible.
+
+---
+
+## Participant P4
+**Mode**: Screen reader and keyboard only
+**Date**: [2025-12-03 18:11]
+**Consent**: ✅ Verbal confirmed
+**Duration**: 11 minutes
+
+---
+
+### Task 1: Filter tasks
+**Start**: 18:13:35→ **End**: 18:13:45 = **10 minute**
+**Success**: 1 (completed)
+**Errors**: 0
+**Confidence**: 4/5
+**Observations**:
+- Participant did not use filter function, when prompted said it probably would have been easier to use that as when there are a lot of tasks the text can get quite small and all the buttons look very similar.
+ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
+2025-12-03T18:13:34.322521800Z,P3_2096,r_c501ba1f,T0_list,success,,32,200,off`       
+---
+
+### Task 2: Edit task   
+**Start**: 18:16:40 → **End**: 18:18:00 = **1:20 minutes**
+**Success**: 0
+**Errors**: 1
+**Confidence**: 1/5
+**Observations**:
+- Whenever user attempted to edit task, the page would reload but nothing would change. User kept persisting but was confused and evetually gave up.
+ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
+2025-12-03T18:16:48.000580600Z,P3_2096,r_66662396,T0_list,success,,61,200,off
+2025-12-03T18:17:05.425291700Z,P3_2096,r_7b19135f,T2_edit,success,,2,200,off
+2025-12-03T18:17:05.470908500Z,P3_2096,r_1ccd9bd9,T0_list,success,,38,200,off
+2025-12-03T18:17:11.468136600Z,P3_2096,r_6795e73f,T2_edit,success,,5,200,off
+2025-12-03T18:17:11.529066100Z,P3_2096,r_11a9df7c,T0_list,success,,54,200,off
+2025-12-03T18:17:15.206190600Z,P3_2096,r_944a3969,T2_edit,success,,3,200,off
+2025-12-03T18:17:15.247872100Z,P3_2096,r_9c14a493,T0_list,success,,34,200,off
+2025-12-03T18:17:24.178754400Z,P3_2096,r_5f2537a5,T2_edit,success,,4,200,off
+2025-12-03T18:17:24.266709200Z,P3_2096,r_8f821030,T0_list,success,,74,200,off
+2025-12-03T18:17:28.316326200Z,P3_2096,r_e5c848f0,T2_edit,success,,2,200,off
+2025-12-03T18:17:28.380068Z,P3_2096,r_8e270532,T0_list,success,,53,200,off
+2025-12-03T18:17:33.305023800Z,P3_2096,r_9c5923c7,T2_edit,success,,4,200,off
+2025-12-03T18:17:33.355119900Z,P3_2096,r_7754c685,T0_list,success,,44,200,off
+2025-12-03T18:17:36.590032500Z,P3_2096,r_e35416ad,T2_edit,success,,3,200,off
+2025-12-03T18:17:36.645303100Z,P3_2096,r_25549cbb,T0_list,success,,49,200,off
+2025-12-03T18:17:47.797561900Z,P3_2096,r_cf21d684,T2_edit,success,,2,200,off
+2025-12-03T18:17:47.841765400Z,P3_2096,r_17753218,T0_list,success,,37,200,off
+2025-12-03T18:17:56.684695600Z,P3_2096,r_8cb991e0,T2_edit,success,,2,200,off
+2025-12-03T18:17:56.738605400Z,P3_2096,r_17084202,T0_list,success,,44,200,off
+2025-12-03T18:17:59.847933900Z,P3_2096,r_11fa8891,T2_edit,success,,2,200,off
+2025-12-03T18:17:59.887581100Z,P3_2096,r_058b422e,T0_list,success,,34,200,off
+
+### Task 3: Add new tasks
+**Start**: 18:20:45 → **End**: 18:21:01 = **16 seconds**
+**Success**: 1 (completed)
+**Errors**: 0
+**Confidence**: 5/5
+**Observations**:
+- Page reloaded after adding task, user then scrolled through list and found it.
+ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
+2025-12-03T18:20:45.536089Z,P3_2096,r_0733b919,T3_add,success,,0,200,off
+2025-12-03T18:20:45.576171800Z,P3_2096,r_1484916f,T0_list,success,,31,200,off
+2025-12-03T18:20:50.685339200Z,P3_2096,r_c3bda44c,T0_list,success,,20,200,off
+2025-12-03T18:20:52.719587600Z,P3_2096,r_d5aadd74,T0_list,success,,44,200,off
+---
+
+### Task 4: Filter and delete tasks
+**Start**: 18:22:34 → **End**: 18:22:56 = **23 seconds**
+**Success**: 1 (completed)
+**Errors**: 
+**Confidence**: 3/5
+**Observations**:
+- Used filter to find all tasks as required and was not phased by reload, but was confused that the filter did not persist after deleting a task. However adapted quickly and finished the task 
+ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
+2025-12-03T18:22:31.088613200Z,P3_2096,r_7d521fe7,T0_list,success,,12,200,off
+2025-12-03T18:22:33.105445400Z,P3_2096,r_cababe39,T4_delete,success,,12,200,off
+2025-12-03T18:22:33.172902400Z,P3_2096,r_f42e19cf,T0_list,success,,56,200,off
+2025-12-03T18:22:37.718500100Z,P3_2096,r_06fc9cf3,T0_list,success,,16,200,off
+2025-12-03T18:22:39.977400Z,P3_2096,r_d393d0b8,T4_delete,success,,16,200,off
+2025-12-03T18:22:40.036820300Z,P3_2096,r_a0480a18,T0_list,success,,45,200,off
+2025-12-03T18:22:43.208550600Z,P3_2096,r_a40d3a3e,T0_list,success,,15,200,off
+2025-12-03T18:22:44.942649900Z,P3_2096,r_a97152d3,T4_delete,success,,12,200,off
+2025-12-03T18:22:45.000903600Z,P3_2096,r_518703c4,T0_list,success,,46,200,off
+2025-12-03T18:22:47.847988Z,P3_2096,r_ad334408,T0_list,success,,13,200,off
+2025-12-03T18:22:50.142704600Z,P3_2096,r_666e4821,T0_list,success,,22,200,off
+
+### Debrief Notes
+**Most confusing**: "Edit failing was very confusing, I was not given an error message."
+**Most helpful**: "I think the page reloading itself was very helpful when working without JS, it would have been annoying to have to reload it myself every time."
+**Accessibility**: Used keyboard and mouse with javascript disabled. All features but edit working as intended. Focus visible.
 
 
 ---

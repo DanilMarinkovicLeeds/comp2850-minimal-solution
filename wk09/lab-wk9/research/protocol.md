@@ -2,13 +2,13 @@
 
 ## Study Overview
 
-**Purpose**: Evaluate usability and accessibility of task list prototype with peer participants.
+**Purpose**: Test usability and accessibility of task manager prototype with peer participants to gather feedback that would inform future changes that improve user experience.
 
 **Type**: Low-risk formative evaluation, peer-to-peer within module.
 
 **Scope**:
-- 5–6 participants (lab pairs)
-- 4 tasks per session (~15–20 minutes)
+- 4 participants (lab pairs)
+- 4 tasks per session (~5–15 minutes)
 - No audio/video recording
 - No personally identifiable information collected
 
@@ -23,10 +23,11 @@
 **Inclusion**:
 - Enrolled in COMP2850
 - Comfortable using web browsers
+- Comfortable navigating site with different restrictions (noJS, keyboard only, screen reader)
 - Able to provide informed consent
 
 **Exclusion**:
-- None (module is inclusive by design)
+- None
 
 **Accessibility accommodations**:
 - Screen reader users: allowed extra time, SR-specific observations recorded separately
@@ -39,7 +40,7 @@
 
 **Before starting** (read aloud):
 
-> "Thanks for agreeing to pilot our prototype. This is a quick usability test—about 15 minutes. I'll ask you to complete 4 tasks while I observe and take notes. I'm testing the interface, not you, so there are no wrong answers.
+> "Thanks for agreeing to pilot our application. This is a quick test that should take around 10 minutes. I'll ask you to complete 4 tasks while I observe and time while taking notes, after I will ask you some questions about your experience. I'm testing the interface, not you, so there are no wrong answers.
 >
 > **What we're collecting**:
 > - Task completion times (from server logs)
@@ -47,7 +48,7 @@
 > - Errors or validation issues
 > - Your confidence ratings after each task
 > - My notes on any hesitations or accessibility issues
->
+> - Your thoughts on what features were most helpful and which you found most confusing.
 > **What we're NOT collecting**:
 > - Your name, email, or student ID
 > - Screen recordings or audio

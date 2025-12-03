@@ -29,8 +29,8 @@ Completion rate = (# successes)/(#attempts)
 **Definition**: Duration from task start to completion or abandonment.
 
 **Calculation**:
-- **Server-timed**: `ms` column in metrics.csv (start to success event)
-- **Backup**: Facilitator stopwatch (start when participant reads scenario, stop when they say "done")
+- **Server-timed**: Facilitator stopwatch (start when participant confirms they understand scenario, stop when they say "done")
+- **Backup**: `ms` column in metrics.csv (start to success event)
 
 **Reporting**:
 - **Median** (primary): Middle value, resistant to outliers
