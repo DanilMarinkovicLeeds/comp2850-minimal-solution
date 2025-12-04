@@ -12,7 +12,7 @@ data/metrics.csv
 
 # Analysis artifacts (compiled outputs)
 analyse.jar
-analysis/
+
 
 # Local test scripts
 test_instrumentation.sh
