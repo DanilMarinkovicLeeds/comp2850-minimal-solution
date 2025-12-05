@@ -7,6 +7,7 @@
   
   {# Pico CSS for baseline accessible styles (WCAG 2.2 AA compliant) #}
   <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="/static/css/custom.css"> 
   
   {# HTMX for progressive enhancement #}
   <script src="https://unpkg.com/htmx.org@1.9.12"></script>
@@ -53,7 +54,6 @@
     button[type="submit"],
     button {
       color: white !important; /* White text on blue background for better contrast */
-      background: #c91104 !important;
     }
   </style>
 </head>
