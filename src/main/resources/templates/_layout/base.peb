@@ -53,6 +53,7 @@
     button[type="submit"],
     button {
       color: white !important; /* White text on blue background for better contrast */
+      background: #c91104 !important;
     }
   </style>
 </head>
